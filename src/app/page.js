@@ -1,8 +1,15 @@
+import Accueil from "@/indexsections/Accueil";
+
 
 export default function Home() {
   return (
 <>
-  <h1>Hi khairo</h1>
+    <div>
+          
+          <Accueil/>
+          
+    </div>
+  
 </>
   );
 }
