@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Link from 'next/link';
 export default function Section1() {
   return (
 
@@ -49,9 +49,9 @@ export default function Section1() {
 
             {/* Lien & Compteur */}
             <div className="mt-6 text-center lg:text-right">
-              <a href="#" className="text-red-600 underline text-sm font-medium block mb-2">
+              <Link href="/qui_peut_donne" className="text-red-600 underline text-sm font-medium block mb-2">
                 اقرأ عن شروط وفوائد التبرع بالدم
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -35,8 +35,8 @@ export default function Section2Arabic() {
             فلماذا لا تكون أنت؟ لا تتردد وانضم إلينا!
           </h6>
           <h5 className="pt-2 font-bold">
-            <span href="/">
-              <a className="inline-flex items-center gap-2">
+            <span>
+              <Link href="/qui_peut_donne" className="inline-flex items-center gap-2">
                 
                 <div className="relative h-10 w-10">
                   <Image
@@ -50,7 +50,7 @@ export default function Section2Arabic() {
                 </div>
                 <span className="text-red-600">مزيد من المعلومات</span>
                 
-              </a>
+              </Link>
             </span>
           </h5>
         </div>
@@ -74,8 +74,8 @@ export default function Section2Arabic() {
             هل ترغب في التبرع بالدم ولكن تتساءل كيف يتم ذلك؟
           </h6>
           <h5 className="pt-2 font-bold">
-            <span href="/" >
-              <a className="inline-flex items-center gap-2">
+            <span  >
+              <Link href="/etapes_don_sang" className="inline-flex items-center gap-2">
                 <div className="relative h-10 w-10">
                   <Image
                     className="pt-2 w-2xl"
@@ -88,7 +88,7 @@ export default function Section2Arabic() {
                 </div>
                 <span className="text-red-600">مراحل التبرع</span>
 
-              </a>
+              </Link>
             </span>
           </h5>
         </div>
